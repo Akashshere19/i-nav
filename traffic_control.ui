@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1889</width>
+    <height>981</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 186, 26);</string>
+  </property>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>170</y>
+     <width>1501</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 186, 26);
+border-width : 1.2px;
+border-style:inset;
+border-color: rgb(0, 0, 0);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>In Section Time</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Car Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Wait Time</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="control_label">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>80</y>
+     <width>314</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(217, 217, 217);
+border-radius:5px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TRAFFIC CONTROL  MONITOR&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>440</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>next</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>250</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 186, 26);
+border-color: rgb(0, 0, 0);
+border-width : 1.2px;
+</string>
+   </property>
+   <property name="text">
+    <string>04:15:47 MON,MAY:30:2022</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>570</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>CAR
+INTERRUPT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>MAP
+MONITOR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>370</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>TRAFFIC
+CONTROL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>470</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>USER
+INTERFACE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>770</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>
+SETUP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>670</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>DATA
+LOGGING</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1901</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 186, 26);
+border-width:2px;
+border-style:Inset;
+border-color:rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;i-NAV CONTROL MONITOR &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>OUEUE
+CALLING</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>870</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>LOGOUT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>71</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 56, 30);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string> 
+LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>70</y>
+     <width>180</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   background-color: rgb(255, 186, 26);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string> SECTION
+COLUMN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>175</y>
+     <width>179</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(255, 186, 26);
+	border-color: rgb(0, 0, 0);
+	border-width : 1.2px;
+	border-style:inset;
+}
+QPushButton::pressed{
+	
+	background-color: rgb(14, 255, 207);
+   border-width : 2px;
+	border-color: rgb(170, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string> SECTION
+LIST</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>20</y>
+     <width>301</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 186, 26);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;04:15:47 MON,MAY:30:2022&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
